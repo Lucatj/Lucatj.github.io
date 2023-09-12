@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-color: honeydew;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient( to top right, rgb(255, 196, 0), rgb(166, 255, 0));
+    height: 1000px;
+
+}
+
+ul { 
+    list-style: none;  
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+
+    color:white;
+    font-size: 40px;;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 20px;
+    background-color: lightsalmon;
+    border-radius: 15px; 
+}
+
+ul li a:hover
+{
+    color: lightsalmon;
+background-color:white;
+}
+    /* opmaak container*/
+.container{
+    height: 300px;
+    width: 960px;
+    background-color:white;
+    margin: 0 auto;
+    margin-top:100px;
+
+}
+    /* opmaak header*/
+    header {
+        background-color: lightskyblue;
+        padding: 30px;
+        text-align:center;
+        font-size: 35px;
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* opmaak nav*/
+    nav{
+        float: left;
+        width: 30%;
+        height: 400px;
+        background: lightblue;
+        padding: 20px;
+        
+    }
+
+        /* opmaak article*/
+    article{
+        float:left;
+        padding:20px;
+        width: 70%;
+        background-color:white;
+        height: 400px;
+    }
+    section:after {
+        content:"";
+        display: table;
+        clear:both;
+    }
+
+    /* opmaak footer*/
+    footer{
+        
+        background-color:lightskyblue;
+        padding: 20px;
+        text-align:center;
+        color: white; 
+    }
+
